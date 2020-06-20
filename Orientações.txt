@@ -13,5 +13,8 @@ git status
 --adicionar um arquivo do git
 git add <nome do arquivo>
 
---adicionaro todos os arquivos da pasta atual
+--adicionando todos os arquivos da pasta atual
 git add .
+
+--Fazendo o comentário
+git commit -m "mensagem a descrever"
