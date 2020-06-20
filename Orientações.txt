@@ -18,3 +18,22 @@ git add .
 
 --Fazendo o comentário
 git commit -m "mensagem a descrever"
+
+--fazendo login
+git config --local user.name "Seu nome aqui"
+git config --local user.email "seu@email.aqui"
+
+--vendo um relatório do git
+git log
+
+--Fazendo a configuração do nome
+git config --local user.name
+
+--Fazendo a configuração do email
+git config --local user.email
+
+--visualizando as informações em uma linha
+git log --oneline
+
+--visualizando mais detalhado
+git log -p
