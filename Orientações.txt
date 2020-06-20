@@ -1,0 +1,17 @@
+comando do git
+
+--para inicializar um repositório 
+
+git init
+
+--para ver a versão do git
+git --version
+
+--para ver o status do repositorio
+git status
+
+--adicionar um arquivo do git
+git add <nome do arquivo>
+
+--adicionaro todos os arquivos da pasta atual
+git add .
