@@ -37,3 +37,39 @@ git log --oneline
 
 --visualizando mais detalhado
 git log -p
+
+--criando um repositório para apenas as alterações
+git init --bare
+
+--listar todos os repositorio remotos
+git remote
+
+--adicionar um repositorio remoto
+git remote add [nome do repositorio] [caminho do repositorio]
+
+--clona o repositorio
+git clone
+
+-- enviar os dados para o repositorio
+git push [nome do repositorio] master
+
+--baixa os arquivos do repositorio
+git pull
+
+--vendo as branch
+git branch
+
+--criando uma branch
+git branch [nome]
+
+--mudando para a branch 
+git checkout [nome da branch]
+
+--criando uma branch e habilitar
+git checkout -b [nome da branch]
+
+--unificando a branch
+git merge [nome da branch]
+
+--atualizando a branch master
+git rebase [ñome da branch]
